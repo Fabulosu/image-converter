@@ -20,7 +20,7 @@
         formData.append('format', format);
 
         try {
-            const response = await fetch('image-converter-backend-production.up.railway.app/api/convert', {
+            const response = await fetch('https://image-converter-backend-production.up.railway.app/api/convert', {
                 method: 'POST',
                 body: formData
             });
